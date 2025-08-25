@@ -11,8 +11,8 @@ def fetch_weather_data(lat, lon):
     start_date = dates[0]
     end_date = dates[-1]
 
-    url = (
-        f"https://archive-api.open-meteo.com/v1/archive?"
+    url = ("your_api_key"
+        #f"https://archive-api.open-meteo.com/v1/archive?"
         f"latitude={lat}&longitude={lon}"
         f"&start_date={start_date}&end_date={end_date}"
         f"&daily=temperature_2m_max,temperature_2m_min"
