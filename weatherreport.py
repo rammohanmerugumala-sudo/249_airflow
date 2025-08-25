@@ -1,4 +1,4 @@
-import requests
+#import requests
 from datetime import datetime, timedelta
 
 def get_past_seven_days_dates():
